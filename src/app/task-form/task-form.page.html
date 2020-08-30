@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>task-form</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <h1>Task Form</h1>
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button [routerLink]="['/']" class="task-form-cancel">
+      <ion-icon name="close-outline"></ion-icon>
+    </ion-fab-button>
+    <ion-fab-button [routerLink]="['/']" class="task-form-accept">
+      <ion-icon name="checkmark-outline"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+</ion-content>
